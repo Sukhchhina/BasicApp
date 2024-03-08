@@ -6,6 +6,7 @@ import Screen2 from './src/components/Screen2';
 import SplashScreen from './src/components/SplashScreen';
 import Checkboxlayout from './src/components/Checkboxlayout';
 import Pizzadropdown from './src/components/Pizzadropdown';
+import Pizzagallery from './src/components/Pizzagallery';
 
 
 const Stack = createNativeStackNavigator();
@@ -18,6 +19,7 @@ function App() {
         <Stack.Screen name="Screen2" component={Screen2} />
         <Stack.Screen name="Checkbox" component={Checkboxlayout}
         />
+        <Stack.Screen name="Pizzagallery" component={Pizzagallery}/>
         <Stack.Screen name="Pizzadropdown" component={Pizzadropdown}/>
         
       </Stack.Navigator>

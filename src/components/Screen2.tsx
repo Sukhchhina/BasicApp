@@ -8,7 +8,7 @@ const Screen2 = () => {
     <View style={styles.container}>
       <View style={styles.row}>
         <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Screen2')}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Pizzagallery')}>
         <Text style={styles.buttonText}>Pizza Gallery</Text>
         </TouchableOpacity>
         </View>
