@@ -25,7 +25,7 @@ const Screen2 = () => {
         </TouchableOpacity>
         </View>
         <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Screen2')}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('DeliveryMethod')}>
         <Text style={styles.buttonText}>Radiobutton</Text>
         </TouchableOpacity>
         </View>
